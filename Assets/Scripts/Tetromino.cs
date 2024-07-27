@@ -5,7 +5,7 @@ public enum Tetromino
 {
     I, O, T, J, L, S, Z
 }
-[Serializable]
+[System.Serializable]
 public struct TetrominoData
 {
     public Tetromino tetromino;
